@@ -1,0 +1,86 @@
+/* BY: ALESSANDRO AMATO
+   USED: VISUAL STUDIO 2022
+   DATE: 20:55 01/09/2021
+   PROJECT NAME: SITO PER BOOLEAN - STYLE */
+
+body {
+    background-size: cover;
+    background-image: url(background.jpg);
+}
+
+.c{ /*CONTENITORE DEL SITO TRASPARENTE*/
+  border-radius: 15px;
+  margin: auto;
+  background: rgba(0,0,0,0.5);
+  width: 850px;
+}
+
+.l{ /*DIMENZIONE DEL LOGO E DEL MARGINE SUPERIORE*/
+  padding-top: 80px;
+  width: 180px;
+}
+
+header, nav{ /*ALLINEAMENTO DEL TESTO*/
+  text-align: center;
+}
+
+ header > h1 { /*RIFERIMENTO DI H1 SE SOTTO UNA HEADER*/
+   margin-top: -4px;
+   font-family: cursive;
+   font-size: 22px;
+   color: #00ff00;
+   margin-bottom: 4px;
+ }
+
+nav{ /*LAYOUT BARRA DI NAVIGAZIONE*/
+    padding: 7px;
+    background-color: #00ff00;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+main{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.u{ /*LYOUT DEL TESTO IN GENERALE*/
+  font-family: cursive;
+  color: white;
+  font-size: 18px;
+}
+
+.arrow:before{  /*FRECCETTINA DAVANTI AL TESTO*/
+  content: 	"\21A6";
+}
+
+h4{
+  color: white;
+  font-size: 14px;
+  margin-bottom: -2px;
+}
+
+/*PROGRES BAR*/
+.cG{ /*GINO*/
+  height: 20px;
+  width: 250px;
+  background-color: #ff9933;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.cM{ /*MIKE*/
+  height: 20px;
+  width: 450px;
+  background-color: #00ff00;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.cF{ /*FEDE*/
+  height: 20px;
+  width: 120px;
+  background-color: #ff3333;
+  border-radius: 5px;
+  margin-bottom: 80px;
+}
